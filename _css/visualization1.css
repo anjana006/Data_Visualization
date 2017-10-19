@@ -1,0 +1,110 @@
+body {
+  font: 12px Arial;
+  /*background-color: #d3fe9a;*/
+}
+text {
+  font-family: sans-serif;
+  font-size: 11pt;
+  font-size: 10px;
+}
+path.country {
+  stroke: #999;
+  stroke-width: .5px;
+  fill: lightgreen;
+}
+body > div > select {
+  position: absolute;
+  left: 90px;
+}
+h3{
+  text-align: center;
+}
+#selection{
+  position: relative;
+  top: 10px;
+  left:1000px;
+  width: 350px;
+}
+#here {
+  position: absolute;
+  left: 90px;
+}
+#container{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.bcountry{
+  background-color: #f5f5f0;
+}
+path {
+  stroke: steelblue;
+  stroke-width: 4;
+  fill: none;
+}
+.axis path,.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 2;
+  shape-rendering: crispEdges;
+}
+.tooltip{
+  border-radius: 5px;
+}
+#map {
+  display: inline-block;
+  /*background: #116197;*/
+  background-color: #ccf2ff;
+  border-radius: 5px;
+  /*position: relative;
+  top: 0px;
+  left: 10%;*/
+  margin: 10px;
+
+}
+#line {
+  display: inline-block;
+}
+#change {
+  display: inline-block;
+}
+.bar {
+  border-radius: 5px;
+background-color: #c8fe80;
+margin-top: 10px;
+}
+#mapForm{
+  position: relative;
+  top: 10px;
+  left: 50%;
+  width: 200px;
+  padding: 10px;
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+#line{
+  background-color: #c8fe80;
+  border-radius: 5px;
+}
+#change{
+  background-color: #99e6ff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.highlight{
+  fill:#aaa;
+}
+  .bar--positive {
+fill: steelblue;
+}
+
+.bar--negative {
+fill: darkorange;
+}

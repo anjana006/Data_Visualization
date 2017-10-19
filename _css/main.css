@@ -1,0 +1,25 @@
+body{
+	margin:0px;
+}
+nav ul{
+	margin: 0px;
+}
+nav{
+	margin: 0px;
+	background: #222222;
+	height: 50px;
+	border-radius: 5px;
+}
+nav ul{
+	padding: 15px;
+}
+nav li{
+	list-style: none;
+	float: left;
+	padding-left: 50px;
+}
+nav a{
+	text-decoration: none;
+	color: grey;
+	font-size: 20px;
+}
